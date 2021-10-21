@@ -5,10 +5,10 @@
 }
 .header {
   border: black 2px solid;
-  position: relative;
 }
 .header-col {
   display: inline-block;
+  width: 30%;
 }
 .item {
   display: inline-block;
@@ -19,12 +19,10 @@
   text-decoration: none;
 }
 .header-col-center {
-  position: absolute;
-  left: 450px;
+  text-align: center;
 }
 .header-col-right {
-  position: absolute;
-  left: 1200px;
+  text-align: right;
 }
 .circle {
   background-color: cadetblue;
